@@ -1,0 +1,320 @@
+2019-11-18 10:12:07,238 INFO  crawl.InjectorJob - InjectorJob: starting at 2019-11-18 10:12:07
+2019-11-18 10:12:07,240 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2019-11-18 10:12:10,215 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2019-11-18 10:12:10,250 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:12:10,302 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2019-11-18 10:12:10,823 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2019-11-18 10:12:11,138 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2019-11-18 10:12:11,151 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:12:11,643 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2019-11-18 10:12:11,643 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 21
+2019-11-18 10:12:11,644 INFO  crawl.InjectorJob - Injector: finished at 2019-11-18 10:12:11, elapsed: 00:00:04
+2019-11-18 10:13:33,165 INFO  crawl.InjectorJob - InjectorJob: starting at 2019-11-18 10:13:33
+2019-11-18 10:13:33,166 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2019-11-18 10:13:34,661 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2019-11-18 10:13:34,689 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:13:34,723 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2019-11-18 10:13:35,206 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2019-11-18 10:13:35,493 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2019-11-18 10:13:35,518 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:13:36,039 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2019-11-18 10:13:36,039 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 21
+2019-11-18 10:13:36,040 INFO  crawl.InjectorJob - Injector: finished at 2019-11-18 10:13:36, elapsed: 00:00:02
+2019-11-18 10:14:55,901 INFO  crawl.InjectorJob - InjectorJob: starting at 2019-11-18 10:14:55
+2019-11-18 10:14:55,906 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2019-11-18 10:14:57,478 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2019-11-18 10:14:57,506 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:14:57,547 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2019-11-18 10:14:57,888 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2019-11-18 10:14:58,148 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2019-11-18 10:14:58,155 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:14:58,690 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2019-11-18 10:14:58,690 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 21
+2019-11-18 10:14:58,691 INFO  crawl.InjectorJob - Injector: finished at 2019-11-18 10:14:58, elapsed: 00:00:02
+2019-11-18 10:15:03,992 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2019-11-18 10:15:03
+2019-11-18 10:15:03,993 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2019-11-18 10:15:03,993 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2019-11-18 10:15:03,993 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2019-11-18 10:15:03,993 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2019-11-18 10:15:03,993 INFO  crawl.GeneratorJob - GeneratorJob: topN: 100
+2019-11-18 10:15:04,301 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2019-11-18 10:15:04,302 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2019-11-18 10:15:04,302 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2019-11-18 10:15:05,521 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:15:06,162 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2019-11-18 10:15:06,162 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2019-11-18 10:15:06,162 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2019-11-18 10:15:06,232 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2019-11-18 10:15:06,546 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:15:06,880 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2019-11-18 10:15:06, time elapsed: 00:00:02
+2019-11-18 10:15:06,880 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1574097303-188758314 containing 23 URLs
+2019-11-18 10:15:32,054 INFO  fetcher.FetcherJob - FetcherJob: starting at 2019-11-18 10:15:32
+2019-11-18 10:15:32,054 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2019-11-18 10:15:32,056 INFO  fetcher.FetcherJob - FetcherJob: threads: 10
+2019-11-18 10:15:32,056 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2019-11-18 10:15:32,057 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2019-11-18 10:15:32,057 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2019-11-18 10:15:32,961 INFO  http.Http - http.proxy.host = null
+2019-11-18 10:15:32,961 INFO  http.Http - http.proxy.port = 8080
+2019-11-18 10:15:32,961 INFO  http.Http - http.timeout = 10000
+2019-11-18 10:15:32,961 INFO  http.Http - http.content.limit = 65536
+2019-11-18 10:15:32,961 INFO  http.Http - http.agent = ChimeraCrawler/Nutch-2.3
+2019-11-18 10:15:32,961 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2019-11-18 10:15:32,961 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2019-11-18 10:15:32,962 INFO  http.Http - http.proxy.host = null
+2019-11-18 10:15:32,963 INFO  http.Http - http.proxy.port = 8080
+2019-11-18 10:15:32,963 INFO  http.Http - http.timeout = 10000
+2019-11-18 10:15:32,963 INFO  http.Http - http.content.limit = 65536
+2019-11-18 10:15:32,963 INFO  http.Http - http.agent = ChimeraCrawler/Nutch-2.3
+2019-11-18 10:15:32,963 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2019-11-18 10:15:32,963 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2019-11-18 10:15:34,131 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:15:34,844 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2019-11-18 10:15:34,844 INFO  fetcher.FetcherJob - Fetcher: threads: 10
+2019-11-18 10:15:34,862 INFO  fetcher.FetcherJob - QueueFeeder finished: total 23 records. Hit by time limit :0
+2019-11-18 10:15:34,866 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-100a (queue crawl delay=5000ms)
+2019-11-18 10:15:34,866 INFO  fetcher.FetcherJob - fetching https://web.archive.org/web/20191107022908/https:/www.us-cert.gov/ncas/alerts (queue crawl delay=5000ms)
+2019-11-18 10:15:34,866 INFO  fetcher.FetcherJob - fetching https://us-cert.gov/ncas/alerts/ (queue crawl delay=5000ms)
+2019-11-18 10:15:34,866 INFO  fetcher.FetcherJob - fetching https://www.alienvault.com/ (queue crawl delay=5000ms)
+2019-11-18 10:15:34,867 INFO  http.Http - http.proxy.host = null
+2019-11-18 10:15:34,867 INFO  http.Http - http.proxy.port = 8080
+2019-11-18 10:15:34,867 INFO  http.Http - http.timeout = 10000
+2019-11-18 10:15:34,867 INFO  http.Http - http.content.limit = 65536
+2019-11-18 10:15:34,867 INFO  http.Http - http.agent = ChimeraCrawler/Nutch-2.3
+2019-11-18 10:15:34,867 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2019-11-18 10:15:34,867 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2019-11-18 10:15:34,867 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2019-11-18 10:15:34,867 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2019-11-18 10:15:34,868 INFO  http.Http - http.proxy.host = null
+2019-11-18 10:15:34,868 INFO  http.Http - http.proxy.port = 8080
+2019-11-18 10:15:34,869 INFO  http.Http - http.timeout = 10000
+2019-11-18 10:15:34,869 INFO  http.Http - http.content.limit = 65536
+2019-11-18 10:15:34,869 INFO  http.Http - http.agent = ChimeraCrawler/Nutch-2.3
+2019-11-18 10:15:34,869 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2019-11-18 10:15:34,869 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2019-11-18 10:15:34,870 INFO  http.Http - http.proxy.host = null
+2019-11-18 10:15:34,870 INFO  http.Http - http.proxy.port = 8080
+2019-11-18 10:15:34,870 INFO  http.Http - http.timeout = 10000
+2019-11-18 10:15:34,870 INFO  http.Http - http.content.limit = 65536
+2019-11-18 10:15:34,870 INFO  http.Http - http.agent = ChimeraCrawler/Nutch-2.3
+2019-11-18 10:15:34,870 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2019-11-18 10:15:34,870 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2019-11-18 10:15:34,871 INFO  http.Http - http.proxy.host = null
+2019-11-18 10:15:34,871 INFO  http.Http - http.proxy.port = 8080
+2019-11-18 10:15:34,871 INFO  http.Http - http.timeout = 10000
+2019-11-18 10:15:34,871 INFO  http.Http - http.content.limit = 65536
+2019-11-18 10:15:34,871 INFO  http.Http - http.agent = ChimeraCrawler/Nutch-2.3
+2019-11-18 10:15:34,871 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2019-11-18 10:15:34,871 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2019-11-18 10:15:36,209 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2019-11-18 10:15:36,413 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2019-11-18 10:15:39,869 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 4 pages, 0 errors, 0.8 1 pages/s, 196 196 kb/s, 19 URLs in 3 queues
+2019-11-18 10:15:41,274 INFO  fetcher.FetcherJob - fetching https://us-cert.gov/ncas/alerts/2019 (queue crawl delay=5000ms)
+2019-11-18 10:15:41,444 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-133a (queue crawl delay=5000ms)
+2019-11-18 10:15:41,998 INFO  fetcher.FetcherJob - fetching https://web.archive.org/web/20191107022908/https:/www.us-cert.gov/ncas/ (queue crawl delay=5000ms)
+2019-11-18 10:15:44,873 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 7 pages, 0 errors, 0.7 1 pages/s, 141 86 kb/s, 16 URLs in 1 queues
+2019-11-18 10:15:47,412 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-165a (queue crawl delay=5000ms)
+2019-11-18 10:15:49,876 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 8 pages, 0 errors, 0.5 0 pages/s, 108 40 kb/s, 15 URLs in 1 queues
+2019-11-18 10:15:54,185 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-149a (queue crawl delay=5000ms)
+2019-11-18 10:15:54,879 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 8 pages, 0 errors, 0.4 0 pages/s, 81 0 kb/s, 14 URLs in 1 queues
+2019-11-18 10:15:59,880 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 9 pages, 0 errors, 0.4 0 pages/s, 72 40 kb/s, 14 URLs in 1 queues
+2019-11-18 10:16:01,073 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/alerts/aa19-290a (queue crawl delay=5000ms)
+2019-11-18 10:16:04,880 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 10 pages, 0 errors, 0.3 0 pages/s, 69 52 kb/s, 13 URLs in 1 queues
+2019-11-18 10:16:06,457 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-337d (queue crawl delay=5000ms)
+2019-11-18 10:16:09,881 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 11 pages, 0 errors, 0.3 0 pages/s, 65 40 kb/s, 12 URLs in 1 queues
+2019-11-18 10:16:13,606 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-252a (queue crawl delay=5000ms)
+2019-11-18 10:16:14,886 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 12 pages, 0 errors, 0.3 0 pages/s, 70 102 kb/s, 11 URLs in 1 queues
+2019-11-18 10:16:19,019 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-252b (queue crawl delay=5000ms)
+2019-11-18 10:16:19,890 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 13 pages, 0 errors, 0.3 0 pages/s, 73 102 kb/s, 10 URLs in 1 queues
+2019-11-18 10:16:24,510 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-337b (queue crawl delay=5000ms)
+2019-11-18 10:16:24,895 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 13 pages, 0 errors, 0.3 0 pages/s, 66 0 kb/s, 9 URLs in 1 queues
+2019-11-18 10:16:29,897 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 14 pages, 0 errors, 0.3 0 pages/s, 63 40 kb/s, 9 URLs in 1 queues
+2019-11-18 10:16:31,691 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-337c (queue crawl delay=5000ms)
+2019-11-18 10:16:34,899 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 15 pages, 0 errors, 0.3 0 pages/s, 62 40 kb/s, 8 URLs in 1 queues
+2019-11-18 10:16:38,646 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-312a (queue crawl delay=5000ms)
+2019-11-18 10:16:39,904 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 15 pages, 0 errors, 0.2 0 pages/s, 57 0 kb/s, 7 URLs in 1 queues
+2019-11-18 10:16:44,905 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 16 pages, 0 errors, 0.2 0 pages/s, 56 40 kb/s, 7 URLs in 1 queues
+2019-11-18 10:16:44,946 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-129a (queue crawl delay=5000ms)
+2019-11-18 10:16:46,151 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2019-11-18 10:16:49,909 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 17 pages, 0 errors, 0.2 0 pages/s, 52 9 kb/s, 6 URLs in 1 queues
+2019-11-18 10:16:51,180 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-352a (queue crawl delay=5000ms)
+2019-11-18 10:16:54,912 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 18 pages, 0 errors, 0.2 0 pages/s, 52 40 kb/s, 5 URLs in 1 queues
+2019-11-18 10:16:57,765 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-304a (queue crawl delay=5000ms)
+2019-11-18 10:16:59,912 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 19 pages, 0 errors, 0.2 0 pages/s, 55 102 kb/s, 4 URLs in 1 queues
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob - * queue: https://www.us-cert.gov
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   inProgress    = 0
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   nextFetchTime = 1574097423205
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   now           = 1574097419913
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   0. https://www.us-cert.gov/ncas/analysis-reports/ar19-337a
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   1. https://www.us-cert.gov/ncas/analysis-reports/ar19-221a
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   2. https://www.us-cert.gov/ncas/alerts
+2019-11-18 10:16:59,913 INFO  fetcher.FetcherJob -   3. https://www.us-cert.gov/ncas/analysis-reports/ar19-275a
+2019-11-18 10:17:03,208 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-337a (queue crawl delay=5000ms)
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 20 pages, 0 errors, 0.2 0 pages/s, 54 40 kb/s, 3 URLs in 1 queues
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob - * queue: https://www.us-cert.gov
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob -   inProgress    = 0
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob -   nextFetchTime = 1574097429881
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob -   now           = 1574097424915
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob -   0. https://www.us-cert.gov/ncas/analysis-reports/ar19-221a
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob -   1. https://www.us-cert.gov/ncas/alerts
+2019-11-18 10:17:04,915 INFO  fetcher.FetcherJob -   2. https://www.us-cert.gov/ncas/analysis-reports/ar19-275a
+2019-11-18 10:17:09,909 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-221a (queue crawl delay=5000ms)
+2019-11-18 10:17:09,920 INFO  fetcher.FetcherJob - 9/10 spinwaiting/active, 20 pages, 0 errors, 0.2 0 pages/s, 51 0 kb/s, 2 URLs in 1 queues
+2019-11-18 10:17:09,920 INFO  fetcher.FetcherJob - * queue: https://www.us-cert.gov
+2019-11-18 10:17:09,920 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2019-11-18 10:17:09,921 INFO  fetcher.FetcherJob -   inProgress    = 1
+2019-11-18 10:17:09,921 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2019-11-18 10:17:09,921 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2019-11-18 10:17:09,921 INFO  fetcher.FetcherJob -   nextFetchTime = 1574097429881
+2019-11-18 10:17:09,921 INFO  fetcher.FetcherJob -   now           = 1574097429921
+2019-11-18 10:17:09,921 INFO  fetcher.FetcherJob -   0. https://www.us-cert.gov/ncas/alerts
+2019-11-18 10:17:09,921 INFO  fetcher.FetcherJob -   1. https://www.us-cert.gov/ncas/analysis-reports/ar19-275a
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 21 pages, 0 errors, 0.2 0 pages/s, 50 40 kb/s, 2 URLs in 1 queues
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob - * queue: https://www.us-cert.gov
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob -   inProgress    = 0
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob -   nextFetchTime = 1574097437401
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob -   now           = 1574097434923
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob -   0. https://www.us-cert.gov/ncas/alerts
+2019-11-18 10:17:14,923 INFO  fetcher.FetcherJob -   1. https://www.us-cert.gov/ncas/analysis-reports/ar19-275a
+2019-11-18 10:17:17,428 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/alerts (queue crawl delay=5000ms)
+2019-11-18 10:17:19,924 INFO  fetcher.FetcherJob - 10/10 spinwaiting/active, 22 pages, 0 errors, 0.2 0 pages/s, 51 59 kb/s, 1 URLs in 1 queues
+2019-11-18 10:17:19,924 INFO  fetcher.FetcherJob - * queue: https://www.us-cert.gov
+2019-11-18 10:17:19,924 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2019-11-18 10:17:19,924 INFO  fetcher.FetcherJob -   inProgress    = 0
+2019-11-18 10:17:19,924 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2019-11-18 10:17:19,924 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2019-11-18 10:17:19,924 INFO  fetcher.FetcherJob -   nextFetchTime = 1574097442718
+2019-11-18 10:17:19,924 INFO  fetcher.FetcherJob -   now           = 1574097439924
+2019-11-18 10:17:19,924 INFO  fetcher.FetcherJob -   0. https://www.us-cert.gov/ncas/analysis-reports/ar19-275a
+2019-11-18 10:17:22,753 INFO  fetcher.FetcherJob - fetching https://www.us-cert.gov/ncas/analysis-reports/ar19-275a (queue crawl delay=5000ms)
+2019-11-18 10:17:22,823 INFO  fetcher.FetcherJob - -finishing thread FetcherThread8, activeThreads=9
+2019-11-18 10:17:22,828 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=8
+2019-11-18 10:17:22,840 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=7
+2019-11-18 10:17:22,846 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=6
+2019-11-18 10:17:22,846 INFO  fetcher.FetcherJob - -finishing thread FetcherThread9, activeThreads=5
+2019-11-18 10:17:22,848 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=4
+2019-11-18 10:17:22,866 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=3
+2019-11-18 10:17:22,982 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=2
+2019-11-18 10:17:23,013 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=1
+2019-11-18 10:17:24,414 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2019-11-18 10:17:24,925 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 23 pages, 0 errors, 0.2 0 pages/s, 50 40 kb/s, 0 URLs in 0 queues
+2019-11-18 10:17:24,925 INFO  fetcher.FetcherJob - -activeThreads=0
+2019-11-18 10:17:24,952 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:17:25,675 INFO  fetcher.FetcherJob - FetcherJob: finished at 2019-11-18 10:17:25, time elapsed: 00:01:53
+2019-11-18 10:20:35,084 INFO  parse.ParserJob - ParserJob: starting at 2019-11-18 10:20:35
+2019-11-18 10:20:35,086 INFO  parse.ParserJob - ParserJob: resuming:	false
+2019-11-18 10:20:35,086 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2019-11-18 10:20:35,086 INFO  parse.ParserJob - ParserJob: parsing all
+2019-11-18 10:20:36,217 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2019-11-18 10:20:37,522 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:20:38,070 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2019-11-18 10:20:38,160 INFO  parse.ParserJob - Parsing https://www.alienvault.com/
+2019-11-18 10:20:38,502 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2019-11-18 10:20:38,657 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/alerts
+2019-11-18 10:20:38,767 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/alerts/aa19-290a
+2019-11-18 10:20:38,824 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-100a
+2019-11-18 10:20:38,838 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-129a
+2019-11-18 10:20:38,858 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-133a
+2019-11-18 10:20:38,867 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-149a
+2019-11-18 10:20:38,871 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-165a
+2019-11-18 10:20:38,894 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-221a
+2019-11-18 10:20:38,900 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-252a
+2019-11-18 10:20:38,929 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-252b
+2019-11-18 10:20:38,951 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-275a
+2019-11-18 10:20:38,953 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-304a
+2019-11-18 10:20:38,991 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-312a
+2019-11-18 10:20:38,993 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-337a
+2019-11-18 10:20:38,995 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-337b
+2019-11-18 10:20:38,996 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-337c
+2019-11-18 10:20:38,998 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-337d
+2019-11-18 10:20:38,999 INFO  parse.ParserJob - Parsing https://www.us-cert.gov/ncas/analysis-reports/ar19-352a
+2019-11-18 10:20:39,001 INFO  parse.ParserJob - Parsing https://us-cert.gov/ncas/alerts/
+2019-11-18 10:20:39,002 INFO  parse.ParserJob - Parsing https://us-cert.gov/ncas/alerts/2019
+2019-11-18 10:20:39,005 INFO  parse.ParserJob - Parsing https://web.archive.org/web/20191107022908/https:/www.us-cert.gov/ncas/
+2019-11-18 10:20:39,055 INFO  parse.ParserJob - Parsing https://web.archive.org/web/20191107022908/https:/www.us-cert.gov/ncas/alerts
+2019-11-18 10:20:39,128 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:20:39,844 INFO  parse.ParserJob - ParserJob: success
+2019-11-18 10:20:39,845 INFO  parse.ParserJob - ParserJob: finished at 2019-11-18 10:20:39, time elapsed: 00:00:04
+2019-11-18 10:21:13,635 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting at 2019-11-18 10:21:13
+2019-11-18 10:21:13,636 INFO  crawl.DbUpdaterJob - DbUpdaterJob: updatinging all
+2019-11-18 10:21:15,342 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:21:16,128 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2019-11-18 10:21:16,128 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2019-11-18 10:21:16,128 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2019-11-18 10:21:16,825 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:21:17,584 INFO  crawl.DbUpdaterJob - DbUpdaterJob: finished at 2019-11-18 10:21:17, time elapsed: 00:00:03
+2019-11-18 10:21:53,341 INFO  indexer.IndexingJob - IndexingJob: starting
+2019-11-18 10:21:53,655 INFO  basic.BasicIndexingFilter - Maximum title length for indexing set to: 100
+2019-11-18 10:21:53,656 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2019-11-18 10:21:53,658 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2019-11-18 10:21:53,658 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2019-11-18 10:21:54,887 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:21:55,503 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.elastic.ElasticIndexWriter
+2019-11-18 10:21:55,791 INFO  elasticsearch.plugins - [Basilisk] loaded [], sites []
+2019-11-18 10:21:57,025 INFO  basic.BasicIndexingFilter - Maximum title length for indexing set to: 100
+2019-11-18 10:21:57,032 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2019-11-18 10:21:57,032 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2019-11-18 10:21:57,032 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2019-11-18 10:21:57,724 INFO  elastic.ElasticIndexWriter - Processing remaining requests [docs = 8, length = 69901, total docs = 8]
+2019-11-18 10:21:57,746 INFO  elastic.ElasticIndexWriter - Processing to finalize last execute
+2019-11-18 10:21:57,892 INFO  elastic.ElasticIndexWriter - Previous took in ms 130, including wait 146
+2019-11-18 10:21:57,925 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:21:58,306 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.elastic.ElasticIndexWriter
+2019-11-18 10:21:58,306 INFO  indexer.IndexingJob - Active IndexWriters :
+ElasticIndexWriter
+	elastic.cluster : elastic prefix cluster
+	elastic.host : hostname
+	elastic.port : port  (default 9300)
+	elastic.index : elastic index command 
+	elastic.max.bulk.docs : elastic bulk index doc counts. (default 250) 
+	elastic.max.bulk.size : elastic bulk index length. (default 2500500 ~2.5MB)
+
+
+2019-11-18 10:21:58,342 INFO  elasticsearch.plugins - [Ringleader] loaded [], sites []
+2019-11-18 10:21:58,393 INFO  indexer.IndexingJob - IndexingJob: done.
+2019-11-18 10:25:38,075 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting at 2019-11-18 10:25:38
+2019-11-18 10:25:38,076 INFO  crawl.DbUpdaterJob - DbUpdaterJob: updatinging all
+2019-11-18 10:25:40,670 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:25:41,857 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2019-11-18 10:25:41,858 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2019-11-18 10:25:41,858 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2019-11-18 10:25:41,859 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:25:42,147 INFO  crawl.DbUpdaterJob - DbUpdaterJob: finished at 2019-11-18 10:25:42, time elapsed: 00:00:04
+2019-11-18 10:25:45,440 INFO  indexer.IndexingJob - IndexingJob: starting
+2019-11-18 10:25:45,730 INFO  basic.BasicIndexingFilter - Maximum title length for indexing set to: 100
+2019-11-18 10:25:45,730 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2019-11-18 10:25:45,732 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2019-11-18 10:25:45,732 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2019-11-18 10:25:46,874 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-11-18 10:25:47,419 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.elastic.ElasticIndexWriter
+2019-11-18 10:25:47,785 INFO  elasticsearch.plugins - [Claudette St. Croix] loaded [], sites []
+2019-11-18 10:25:48,933 INFO  basic.BasicIndexingFilter - Maximum title length for indexing set to: 100
+2019-11-18 10:25:48,933 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2019-11-18 10:25:48,933 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2019-11-18 10:25:48,933 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2019-11-18 10:25:49,443 INFO  elastic.ElasticIndexWriter - Processing remaining requests [docs = 8, length = 69901, total docs = 8]
+2019-11-18 10:25:49,462 INFO  elastic.ElasticIndexWriter - Processing to finalize last execute
+2019-11-18 10:25:49,580 INFO  elastic.ElasticIndexWriter - Previous took in ms 105, including wait 118
+2019-11-18 10:25:49,674 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2019-11-18 10:25:50,296 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.elastic.ElasticIndexWriter
+2019-11-18 10:25:50,296 INFO  indexer.IndexingJob - Active IndexWriters :
+ElasticIndexWriter
+	elastic.cluster : elastic prefix cluster
+	elastic.host : hostname
+	elastic.port : port  (default 9300)
+	elastic.index : elastic index command 
+	elastic.max.bulk.docs : elastic bulk index doc counts. (default 250) 
+	elastic.max.bulk.size : elastic bulk index length. (default 2500500 ~2.5MB)
+
+
+2019-11-18 10:25:50,320 INFO  elasticsearch.plugins - [Comet] loaded [], sites []
+2019-11-18 10:25:50,360 INFO  indexer.IndexingJob - IndexingJob: done.

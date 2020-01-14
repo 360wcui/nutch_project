@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+	<property>
+		<name>http.agent.name</name>
+		<value>ChimeraCrawler</value>
+	</property>
+	<property>
+		<name>storage.data.store.class</name>
+		<value>org.apache.gora.hbase.store.HBaseStore</value>
+	</property>
+	<property>
+		<name>plugin.includes</name>
+		<value>protocol-http|urlfilter-regex|parse-(html|tika)|index-(basic|anchor)|urlnormalizer-(pass|regex|basic)|scoring-opic|indexer-elastic</value>
+	</property>
+	
+	<property>
+	  <name>http.robots.403.allow</name>
+	  <value>true</value>
+	  <description>Some servers return HTTP status 403 (Forbidden) if
+	  /robots.txt doesn't exist. This should probably mean that we are
+	  allowed to crawl the site nonetheless. If this is set to false,
+	  then such sites will be treated as forbidden.</description>
+	</property>
+
+	<!-- elasticsearch index properties -->
+	<property>
+	  <name>elastic.host</name>
+	  <value>localhost</value>
+	  <description>The hostname to send documents to using TransportClient.
+	  Either host and port must be defined or cluster.
+	  </description>
+	</property>
+
+	<property>
+	  <name>elastic.port</name>
+	  <value>9300</value>
+	  <description>
+	  The port to connect to using TransportClient.
+	  </description>
+	</property>
+	<property>
+	  <name>elastic.cluster</name>
+	  <value>elasticsearch</value>
+	  <description>The cluster name to discover. Either host and potr must
+	  be defined or cluster.
+	  </description>
+	</property>
+	<property>
+	  <name>elastic.index</name>
+	  <value>nutch1119</value>
+	  <description>
+	  The name of the elasticsearch index. Will normally be autocreated if it
+	  doesn't exist.
+	  </description>
+	</property>
+
+	<property>
+	  <name>elastic.max.bulk.docs</name>
+	  <value>250</value>
+	  <description>
+	  The number of docs in the batch that will trigger a flush to
+	  elasticsearch.
+	  </description>
+	</property>
+
+	<property>
+	  <name>elastic.max.bulk.size</name>
+	  <value>2500500</value>
+	  <description>
+	  The total length of all indexed text in a batch that will trigger a
+	  flush to elasticsearch, by checking after every document for excess 
+	  of this amount.
+	  </description>
+	</property>
+</configuration>

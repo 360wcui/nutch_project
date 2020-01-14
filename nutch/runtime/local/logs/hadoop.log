@@ -1,0 +1,140 @@
+2020-01-13 19:48:56,925 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-13 19:48:56
+2020-01-13 19:48:56,926 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2020-01-13 19:48:58,666 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2020-01-13 19:48:58,692 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-13 19:48:58,722 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2020-01-13 19:48:58,971 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-13 19:48:58,972 WARN  mapred.LocalJobRunner - job_local538889065_0001
+java.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.BufferedReader.<init>(BufferedReader.java:101)
+	at java.io.BufferedReader.<init>(BufferedReader.java:116)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:202)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-13 19:48:59,829 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=inject urls, jobid=job_local538889065_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:55)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
+2020-01-13 19:50:52,285 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-13 19:50:52
+2020-01-13 19:50:52,286 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2020-01-13 19:50:52,981 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2020-01-13 19:50:53,002 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-13 19:50:53,030 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2020-01-13 19:50:53,268 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-13 19:50:53,269 WARN  mapred.LocalJobRunner - job_local591902393_0001
+java.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.BufferedReader.<init>(BufferedReader.java:101)
+	at java.io.BufferedReader.<init>(BufferedReader.java:116)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:202)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-13 19:50:54,131 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=inject urls, jobid=job_local591902393_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:55)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
+2020-01-13 19:52:38,573 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-13 19:52:38
+2020-01-13 19:52:38,573 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2020-01-13 19:52:39,151 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2020-01-13 19:52:39,165 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-13 19:52:39,190 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2020-01-13 19:52:39,400 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-13 19:52:39,401 WARN  mapred.LocalJobRunner - job_local377497998_0001
+java.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.BufferedReader.<init>(BufferedReader.java:101)
+	at java.io.BufferedReader.<init>(BufferedReader.java:116)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:202)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-13 19:52:40,275 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=inject urls, jobid=job_local377497998_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:55)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
+2020-01-13 19:54:51,616 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-13 19:54:51
+2020-01-13 19:54:51,616 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2020-01-13 19:54:52,374 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2020-01-13 19:54:52,391 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-13 19:54:52,416 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2020-01-13 19:54:52,614 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-13 19:54:52,614 WARN  mapred.LocalJobRunner - job_local2051182489_0001
+java.lang.Exception: java.lang.NullPointerException
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.lang.NullPointerException
+	at java.io.Reader.<init>(Reader.java:78)
+	at java.io.BufferedReader.<init>(BufferedReader.java:101)
+	at java.io.BufferedReader.<init>(BufferedReader.java:116)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:202)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-13 19:54:53,507 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=inject urls, jobid=job_local2051182489_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:55)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
