@@ -17,24 +17,32 @@ Drop '<table_name>'
  # add 'gora.datastore.default=org.apche.gora.hbase.store.HBaseStore' to line 64 of gore.properties
  # uncomment out line 121 of ivy/ivy.xml
 
-
-# To compile nutch, From an folder
+# To compile nutch, From an folder. 
+# go to notch
 ant runtime
 
+# create two folders deploy and local
+# go to runtime/local/conf/nutch-site.xml
+# update properties.
+
+
+# create runtime/local/urls/seed.txt and put the url to seed.txt
+vi 
 
 to config elastic ports.
 bin/elasticsearch -E http.port=9400 -E transport.tcp.port=9500
 
 #cd to the nutch/runtime/local
-/bin/nutch inject urls
-/bin/nutch generate -topN 100
-/bin/nutch fetch -all
-/bin/nutch parse -all
-/bin/nutch updatedb -all
+./bin/nutch inject urls
+./bin/nutch generate -topN 100
+./bin/nutch fetch -all
+./bin/nutch parse -all
+./bin/nutch updatedb -all
 
 # after the elasticsearch 1.4.1 is running
-/bin/nutch index -all
+./bin/nutch index -all
 
 
 http://localhost:9200/_cat/indices?v
-http://localhost:9200/nutch1118/_search
+http://localhost:9200/nutch1119/_search
+curl -XDELETE localhost:9200/[index]
