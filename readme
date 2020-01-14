@@ -1,0 +1,31 @@
+Ant runtime  # download dependencies create two folders local and deploy
+# Nutch uses Hbase as storage
+
+
+#  start hbase on Mac
+sudo -E ./bin/start-hbase.sh
+
+# to verify hbase is running correctly
+./bin/hbase shell
+list
+
+# to delete tables
+disable '<table_name>'
+Drop '<table_name>'
+
+to config elastic ports.
+bin/elasticsearch -E http.port=9400 -E transport.tcp.port=9500
+
+#cd to the nutch/runtime/local
+/bin/nutch inject urls
+/bin/nutch generate -topN 100
+/bin/nutch fetch -all
+/bin/nutch parse -all
+/bin/nutch updatedb -all
+
+# after the elasticsearch 1.4.1 is running
+/bin/nutch index -all
+
+
+http://localhost:9200/_cat/indices?v
+http://localhost:9200/nutch1118/_search
