@@ -13,6 +13,15 @@ list
 disable '<table_name>'
 Drop '<table_name>'
 
+# update nutch/ivy/ivy.xml and nutch/conf/gora.properties
+ # add 'gora.datastore.default=org.apche.gora.hbase.store.HBaseStore' to line 64 of gore.properties
+ # uncomment out line 121 of ivy/ivy.xml
+
+
+# To compile nutch, From an folder
+ant runtime
+
+
 to config elastic ports.
 bin/elasticsearch -E http.port=9400 -E transport.tcp.port=9500
 

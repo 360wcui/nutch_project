@@ -667,3 +667,116 @@ EndOfStreamException: Unable to read additional data from client sessionid 0x16f
 	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
 	at java.lang.Thread.run(Thread.java:748)
 2020-01-13 21:15:50,106 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /0:0:0:0:0:0:0:1:52739 which had sessionid 0x16fa2405f320005
+2020-01-13 21:16:28,004 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x16fa2405f320005, timeout of 40000ms exceeded
+2020-01-13 21:16:28,006 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x16fa2405f320005
+2020-01-13 21:17:05,673 DEBUG org.apache.hadoop.hbase.io.hfile.LruBlockCache: Stats: total=1.99 MB, free=239.69 MB, max=241.67 MB, blocks=3, accesses=46, hits=43, hitRatio=93.47%, , cachingAccesses=46, cachingHits=43, cachingHitsRatio=93.47%, , evictions=0, evicted=0, evictedPerRun=NaN
+2020-01-13 21:17:26,563 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:52784
+2020-01-13 21:17:26,570 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:52784
+2020-01-13 21:17:26,571 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x16fa2405f32000e with negotiated timeout 40000 for client /127.0.0.1:52784
+2020-01-13 21:17:26,715 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /0:0:0:0:0:0:0:1:52786
+2020-01-13 21:17:26,715 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /0:0:0:0:0:0:0:1:52786
+2020-01-13 21:17:26,716 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x16fa2405f32000f with negotiated timeout 40000 for client /0:0:0:0:0:0:0:1:52786
+2020-01-13 21:17:26,743 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x16fa2405f32000f
+2020-01-13 21:17:26,743 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /0:0:0:0:0:0:0:1:52786 which had sessionid 0x16fa2405f32000f
+2020-01-13 21:17:26,745 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Creating scanner over .META. starting at key 'webpage,,'
+2020-01-13 21:17:26,745 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Advancing internal scanner to startKey at 'webpage,,'
+2020-01-13 21:17:26,746 DEBUG org.apache.hadoop.hbase.client.ClientScanner: Finished with scanning at {NAME => '.META.,,1', STARTKEY => '', ENDKEY => '', ENCODED => 1028785192,}
+2020-01-13 21:17:26,748 INFO org.apache.hadoop.hbase.master.handler.CreateTableHandler: Attempting to create the table webpage
+2020-01-13 21:17:26,751 INFO org.apache.hadoop.hbase.regionserver.HRegion: creating HRegion webpage HTD == 'webpage', {NAME => 'f', ENCODE_ON_DISK => 'true', BLOOMFILTER => 'NONE', VERSIONS => '1', IN_MEMORY => 'false', KEEP_DELETED_CELLS => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'true', BLOCKSIZE => '65536', REPLICATION_SCOPE => '0'}, {NAME => 'h', ENCODE_ON_DISK => 'true', BLOOMFILTER => 'NONE', VERSIONS => '1', IN_MEMORY => 'false', KEEP_DELETED_CELLS => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'true', BLOCKSIZE => '65536', REPLICATION_SCOPE => '0'}, {NAME => 'il', ENCODE_ON_DISK => 'true', BLOOMFILTER => 'NONE', VERSIONS => '1', IN_MEMORY => 'false', KEEP_DELETED_CELLS => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'true', BLOCKSIZE => '65536', REPLICATION_SCOPE => '0'}, {NAME => 'mk', ENCODE_ON_DISK => 'true', BLOOMFILTER => 'NONE', VERSIONS => '1', IN_MEMORY => 'false', KEEP_DELETED_CELLS => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'true', BLOCKSIZE => '65536', REPLICATION_SCOPE => '0'}, {NAME => 'mtdt', ENCODE_ON_DISK => 'true', BLOOMFILTER => 'NONE', VERSIONS => '1', IN_MEMORY => 'false', KEEP_DELETED_CELLS => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'true', BLOCKSIZE => '65536', REPLICATION_SCOPE => '0'}, {NAME => 'ol', ENCODE_ON_DISK => 'true', BLOOMFILTER => 'NONE', VERSIONS => '1', IN_MEMORY => 'false', KEEP_DELETED_CELLS => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'true', BLOCKSIZE => '65536', REPLICATION_SCOPE => '0'}, {NAME => 'p', ENCODE_ON_DISK => 'true', BLOOMFILTER => 'NONE', VERSIONS => '1', IN_MEMORY => 'false', KEEP_DELETED_CELLS => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'true', BLOCKSIZE => '65536', REPLICATION_SCOPE => '0'}, {NAME => 's', ENCODE_ON_DISK => 'true', BLOOMFILTER => 'NONE', VERSIONS => '1', IN_MEMORY => 'false', KEEP_DELETED_CELLS => 'false', DATA_BLOCK_ENCODING => 'NONE', TTL => '2147483647', COMPRESSION => 'NONE', MIN_VERSIONS => '0', BLOCKCACHE => 'true', BLOCKSIZE => '65536', REPLICATION_SCOPE => '0'} RootDir = file:/hbase-data/.tmp Table name == webpage
+2020-01-13 21:17:26,752 DEBUG org.apache.hadoop.hbase.util.FSUtils: Creating file=file:/hbase-data/.tmp/webpage/63afa6d2347c2cb2fc063eaa3a861f77/.tmp/.regioninfo with permission=rwxrwxrwx
+2020-01-13 21:17:26,752 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultReplication
+2020-01-13 21:17:26,752 INFO org.apache.hadoop.hbase.util.FSUtils: FileSystem doesn't support getDefaultBlockSize
+2020-01-13 21:17:26,753 INFO org.apache.hadoop.hbase.regionserver.HRegion: Setting up tabledescriptor config now ...
+2020-01-13 21:17:26,753 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77.
+2020-01-13 21:17:26,753 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Closing webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77.: disabling compactions & flushes
+2020-01-13 21:17:26,753 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Updates disabled for region webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77.
+2020-01-13 21:17:26,753 INFO org.apache.hadoop.hbase.regionserver.HRegion: Closed webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77.
+2020-01-13 21:17:26,754 INFO org.apache.hadoop.hbase.catalog.MetaEditor: Added 1 regions in META
+2020-01-13 21:17:26,754 INFO org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning 1 region(s) round-robin across 1 server(s)
+2020-01-13 21:17:26,755 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Timeout-on-RIT=1000
+2020-01-13 21:17:26,755 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning 1 region(s) to 192.168.5.31,52729,1578975125662
+2020-01-13 21:17:26,755 INFO org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning done
+2020-01-13 21:17:26,756 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:52727-0x16fa2405f320000 Async create of unassigned node for 63afa6d2347c2cb2fc063eaa3a861f77 with OFFLINE state
+2020-01-13 21:17:26,756 DEBUG org.apache.hadoop.hbase.master.AssignmentManager$CreateUnassignedAsyncCallback: rs=webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77. state=OFFLINE, ts=1578975446756, server=null, server=192.168.5.31,52729,1578975125662
+2020-01-13 21:17:26,757 DEBUG org.apache.hadoop.hbase.master.AssignmentManager$ExistsUnassignedAsyncCallback: rs=webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77. state=OFFLINE, ts=1578975446756, server=null
+2020-01-13 21:17:26,758 INFO org.apache.hadoop.hbase.master.AssignmentManager: 192.168.5.31,52729,1578975125662 outstanding calls=1 of total=1
+2020-01-13 21:17:26,758 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Received request to open 1 region(s)
+2020-01-13 21:17:26,758 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Received request to open region: webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77.
+2020-01-13 21:17:26,759 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:52729-0x16fa2405f320001 Attempting to transition node 63afa6d2347c2cb2fc063eaa3a861f77 from M_ZK_REGION_OFFLINE to RS_ZK_REGION_OPENING
+2020-01-13 21:17:26,760 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:52729-0x16fa2405f320001 Successfully transitioned node 63afa6d2347c2cb2fc063eaa3a861f77 from M_ZK_REGION_OFFLINE to RS_ZK_REGION_OPENING
+2020-01-13 21:17:26,760 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=192.168.5.31,52729,1578975125662, region=63afa6d2347c2cb2fc063eaa3a861f77
+2020-01-13 21:17:26,760 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Opening region: {NAME => 'webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77.', STARTKEY => '', ENDKEY => '', ENCODED => 63afa6d2347c2cb2fc063eaa3a861f77,}
+2020-01-13 21:17:26,760 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Bulk assigning done for 192.168.5.31,52729,1578975125662
+2020-01-13 21:17:26,760 INFO org.apache.hadoop.hbase.regionserver.HRegion: Setting up tabledescriptor config now ...
+2020-01-13 21:17:26,760 DEBUG org.apache.hadoop.hbase.regionserver.HRegion: Instantiated webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77.
+2020-01-13 21:17:26,761 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store f
+2020-01-13 21:17:26,761 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2020-01-13 21:17:26,761 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store h
+2020-01-13 21:17:26,761 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2020-01-13 21:17:26,762 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store il
+2020-01-13 21:17:26,762 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2020-01-13 21:17:26,762 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store mk
+2020-01-13 21:17:26,762 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2020-01-13 21:17:26,762 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store mtdt
+2020-01-13 21:17:26,762 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2020-01-13 21:17:26,763 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store ol
+2020-01-13 21:17:26,763 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2020-01-13 21:17:26,763 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store p
+2020-01-13 21:17:26,763 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2020-01-13 21:17:26,763 INFO org.apache.hadoop.hbase.regionserver.Store: time to purge deletes set to 0ms in store s
+2020-01-13 21:17:26,763 INFO org.apache.hadoop.hbase.regionserver.Store: hbase.hstore.compaction.min = 3
+2020-01-13 21:17:26,764 INFO org.apache.hadoop.hbase.regionserver.HRegion: Onlined webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77.; next sequenceid=1
+2020-01-13 21:17:26,764 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:52729-0x16fa2405f320001 Attempting to transition node 63afa6d2347c2cb2fc063eaa3a861f77 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENING
+2020-01-13 21:17:26,764 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:52729-0x16fa2405f320001 Successfully transitioned node 63afa6d2347c2cb2fc063eaa3a861f77 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENING
+2020-01-13 21:17:26,765 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Post open deploy tasks for region=webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77., daughter=false
+2020-01-13 21:17:26,765 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENING, server=192.168.5.31,52729,1578975125662, region=63afa6d2347c2cb2fc063eaa3a861f77
+2020-01-13 21:17:26,766 INFO org.apache.hadoop.hbase.catalog.MetaEditor: Updated row webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77. with server=192.168.5.31,52729,1578975125662
+2020-01-13 21:17:26,766 INFO org.apache.hadoop.hbase.regionserver.HRegionServer: Done with post open deploy task for region=webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77., daughter=false
+2020-01-13 21:17:26,766 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:52729-0x16fa2405f320001 Attempting to transition node 63afa6d2347c2cb2fc063eaa3a861f77 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENED
+2020-01-13 21:17:26,767 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: regionserver:52729-0x16fa2405f320001 Successfully transitioned node 63afa6d2347c2cb2fc063eaa3a861f77 from RS_ZK_REGION_OPENING to RS_ZK_REGION_OPENED
+2020-01-13 21:17:26,767 DEBUG org.apache.hadoop.hbase.regionserver.handler.OpenRegionHandler: region transitioned to opened in zookeeper: {NAME => 'webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77.', STARTKEY => '', ENDKEY => '', ENCODED => 63afa6d2347c2cb2fc063eaa3a861f77,}, server: 192.168.5.31,52729,1578975125662
+2020-01-13 21:17:26,767 DEBUG org.apache.hadoop.hbase.regionserver.handler.OpenRegionHandler: Opened webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77. on server:192.168.5.31,52729,1578975125662
+2020-01-13 21:17:26,767 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: Handling transition=RS_ZK_REGION_OPENED, server=192.168.5.31,52729,1578975125662, region=63afa6d2347c2cb2fc063eaa3a861f77
+2020-01-13 21:17:26,767 DEBUG org.apache.hadoop.hbase.master.handler.OpenedRegionHandler: Handling OPENED event for webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77. from 192.168.5.31,52729,1578975125662; deleting unassigned node
+2020-01-13 21:17:26,767 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:52727-0x16fa2405f320000 Deleting existing unassigned node for 63afa6d2347c2cb2fc063eaa3a861f77 that is in expected state RS_ZK_REGION_OPENED
+2020-01-13 21:17:26,768 DEBUG org.apache.hadoop.hbase.master.AssignmentManager: The znode of region webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77. has been deleted.
+2020-01-13 21:17:26,768 INFO org.apache.hadoop.hbase.master.AssignmentManager: The master has opened the region webpage,,1578975446744.63afa6d2347c2cb2fc063eaa3a861f77. that was online on 192.168.5.31,52729,1578975125662
+2020-01-13 21:17:26,768 DEBUG org.apache.hadoop.hbase.zookeeper.ZKAssign: master:52727-0x16fa2405f320000 Successfully deleted unassigned node for region 63afa6d2347c2cb2fc063eaa3a861f77 in expected state RS_ZK_REGION_OPENED
+2020-01-13 21:17:27,762 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:52789
+2020-01-13 21:17:27,763 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:52789
+2020-01-13 21:17:27,763 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x16fa2405f320010 with negotiated timeout 40000 for client /127.0.0.1:52789
+2020-01-13 21:17:27,767 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x16fa2405f320010
+2020-01-13 21:17:27,768 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:52789 which had sessionid 0x16fa2405f320010
+2020-01-13 21:17:27,950 INFO org.apache.zookeeper.server.NIOServerCnxnFactory: Accepted socket connection from /127.0.0.1:52790
+2020-01-13 21:17:27,950 INFO org.apache.zookeeper.server.ZooKeeperServer: Client attempting to establish new session at /127.0.0.1:52790
+2020-01-13 21:17:27,951 INFO org.apache.zookeeper.server.ZooKeeperServer: Established session 0x16fa2405f320011 with negotiated timeout 40000 for client /127.0.0.1:52790
+2020-01-13 21:17:27,954 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x16fa2405f320011
+2020-01-13 21:17:27,955 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:52790 which had sessionid 0x16fa2405f320011
+2020-01-13 21:17:29,269 WARN org.apache.zookeeper.server.NIOServerCnxn: caught end of stream exception
+EndOfStreamException: Unable to read additional data from client sessionid 0x16fa2405f32000e, likely client has closed socket
+	at org.apache.zookeeper.server.NIOServerCnxn.doIO(NIOServerCnxn.java:220)
+	at org.apache.zookeeper.server.NIOServerCnxnFactory.run(NIOServerCnxnFactory.java:208)
+	at java.lang.Thread.run(Thread.java:748)
+2020-01-13 21:17:29,270 INFO org.apache.zookeeper.server.NIOServerCnxn: Closed socket connection for client /127.0.0.1:52784 which had sessionid 0x16fa2405f32000e
+2020-01-13 21:18:08,003 INFO org.apache.zookeeper.server.ZooKeeperServer: Expiring session 0x16fa2405f32000e, timeout of 40000ms exceeded
+2020-01-13 21:18:08,003 INFO org.apache.zookeeper.server.PrepRequestProcessor: Processed session termination for sessionid: 0x16fa2405f32000e
+2020-01-13 21:20:12,427 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
+2020-01-13 21:20:12,428 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@7bc4eb2f
+2020-01-13 21:20:12,435 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2020-01-13 21:22:05,671 DEBUG org.apache.hadoop.hbase.io.hfile.LruBlockCache: Stats: total=1.99 MB, free=239.69 MB, max=241.67 MB, blocks=3, accesses=57, hits=54, hitRatio=94.73%, , cachingAccesses=57, cachingHits=54, cachingHitsRatio=94.73%, , evictions=0, evicted=0, evictedPerRun=NaN
+2020-01-13 21:25:12,463 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
+2020-01-13 21:25:12,463 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@7bc4eb2f
+2020-01-13 21:25:12,470 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2020-01-13 21:27:05,704 DEBUG org.apache.hadoop.hbase.io.hfile.LruBlockCache: Stats: total=1.99 MB, free=239.69 MB, max=241.67 MB, blocks=3, accesses=58, hits=55, hitRatio=94.82%, , cachingAccesses=58, cachingHits=55, cachingHitsRatio=94.82%, , evictions=0, evicted=0, evictedPerRun=NaN
+2020-01-13 21:30:12,467 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
+2020-01-13 21:30:12,468 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@7bc4eb2f
+2020-01-13 21:30:12,473 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2020-01-13 21:32:05,703 DEBUG org.apache.hadoop.hbase.io.hfile.LruBlockCache: Stats: total=1.99 MB, free=239.69 MB, max=241.67 MB, blocks=3, accesses=59, hits=56, hitRatio=94.91%, , cachingAccesses=59, cachingHits=56, cachingHitsRatio=94.91%, , evictions=0, evicted=0, evictedPerRun=NaN
+2020-01-13 21:35:12,469 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
+2020-01-13 21:35:12,471 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@7bc4eb2f
+2020-01-13 21:35:12,475 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2020-01-13 21:37:05,703 DEBUG org.apache.hadoop.hbase.io.hfile.LruBlockCache: Stats: total=1.99 MB, free=239.69 MB, max=241.67 MB, blocks=3, accesses=60, hits=57, hitRatio=94.99%, , cachingAccesses=60, cachingHits=57, cachingHitsRatio=94.99%, , evictions=0, evicted=0, evictedPerRun=NaN
+2020-01-13 21:40:12,472 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
+2020-01-13 21:40:12,472 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@7bc4eb2f
+2020-01-13 21:40:12,478 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2020-01-13 21:42:05,703 DEBUG org.apache.hadoop.hbase.io.hfile.LruBlockCache: Stats: total=1.99 MB, free=239.69 MB, max=241.67 MB, blocks=3, accesses=61, hits=58, hitRatio=95.08%, , cachingAccesses=61, cachingHits=58, cachingHitsRatio=95.08%, , evictions=0, evicted=0, evictedPerRun=NaN
