@@ -939,3 +939,7 @@ EndOfStreamException: Unable to read additional data from client sessionid 0x16f
 2020-01-14 06:10:40,760 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
 2020-01-14 06:10:40,762 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@7088c388
 2020-01-14 06:10:40,768 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
+2020-01-14 06:15:28,522 DEBUG org.apache.hadoop.hbase.io.hfile.LruBlockCache: Stats: total=1.99 MB, free=239.68 MB, max=241.67 MB, blocks=3, accesses=184, hits=173, hitRatio=94.02%, , cachingAccesses=180, cachingHits=173, cachingHitsRatio=96.11%, , evictions=0, evicted=4, evictedPerRun=Infinity
+2020-01-14 06:15:40,762 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
+2020-01-14 06:15:40,765 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@7088c388
+2020-01-14 06:15:40,769 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
