@@ -1,175 +1,1042 @@
-2020-01-13 19:48:56,925 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-13 19:48:56
-2020-01-13 19:48:56,926 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
-2020-01-13 19:48:58,666 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
-2020-01-13 19:48:58,692 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2020-01-13 19:48:58,722 WARN  snappy.LoadSnappy - Snappy native library not loaded
-2020-01-13 19:48:58,971 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
-2020-01-13 19:48:58,972 WARN  mapred.LocalJobRunner - job_local538889065_0001
-java.lang.Exception: java.lang.NullPointerException
-	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
-Caused by: java.lang.NullPointerException
-	at java.io.Reader.<init>(Reader.java:78)
-	at java.io.BufferedReader.<init>(BufferedReader.java:101)
-	at java.io.BufferedReader.<init>(BufferedReader.java:116)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:202)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
-	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
-	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
-	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
-	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
-	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
-	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
-	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2020-01-13 19:48:59,829 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=inject urls, jobid=job_local538889065_0001
-	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:55)
-	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+2020-01-14 05:38:51,498 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-14 05:38:51
+2020-01-14 05:38:51,499 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2020-01-14 05:38:52,437 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:52,556 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:52,558 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+2020-01-14 05:38:53,662 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:53,771 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:54,874 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:54,979 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+2020-01-14 05:38:54,983 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:56,090 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:56,193 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:57,299 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:57,401 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:58,508 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:58,614 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:59,720 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:38:59,825 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+2020-01-14 05:38:59,825 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:00,936 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:01,041 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:02,150 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:02,253 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:03,364 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:03,466 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:04,576 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:04,681 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:05,787 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:05,892 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:07,000 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:07,102 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:08,209 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:08,310 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+2020-01-14 05:39:08,310 ERROR zookeeper.RecoverableZooKeeper - ZooKeeper exists failed after 3 retries
+2020-01-14 05:39:08,311 WARN  zookeeper.ZKUtil - hconnection Unable to set watcher on znode (/hbase/hbaseid)
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1041)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:172)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:450)
+	at org.apache.hadoop.hbase.zookeeper.ClusterId.readClusterIdZNode(ClusterId.java:61)
+	at org.apache.hadoop.hbase.zookeeper.ClusterId.getId(ClusterId.java:50)
+	at org.apache.hadoop.hbase.zookeeper.ClusterId.hasId(ClusterId.java:44)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.ensureZookeeperTrackers(HConnectionManager.java:717)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.getMaster(HConnectionManager.java:786)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:127)
+	at org.apache.gora.hbase.store.HBaseStore.initialize(HBaseStore.java:115)
+	at org.apache.gora.store.DataStoreFactory.initializeDataStore(DataStoreFactory.java:104)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:163)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:137)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:78)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:218)
 	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
 	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
 	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
 	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
-
-2020-01-13 19:50:52,285 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-13 19:50:52
-2020-01-13 19:50:52,286 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
-2020-01-13 19:50:52,981 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
-2020-01-13 19:50:53,002 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2020-01-13 19:50:53,030 WARN  snappy.LoadSnappy - Snappy native library not loaded
-2020-01-13 19:50:53,268 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
-2020-01-13 19:50:53,269 WARN  mapred.LocalJobRunner - job_local591902393_0001
-java.lang.Exception: java.lang.NullPointerException
-	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
-Caused by: java.lang.NullPointerException
-	at java.io.Reader.<init>(Reader.java:78)
-	at java.io.BufferedReader.<init>(BufferedReader.java:101)
-	at java.io.BufferedReader.<init>(BufferedReader.java:116)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:202)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
-	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
-	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
-	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
-	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
-	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
-	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
-	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2020-01-13 19:50:54,131 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=inject urls, jobid=job_local591902393_0001
-	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:55)
-	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+2020-01-14 05:39:08,311 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:08,312 ERROR zookeeper.ZooKeeperWatcher - hconnection Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/hbaseid
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1041)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:172)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:450)
+	at org.apache.hadoop.hbase.zookeeper.ClusterId.readClusterIdZNode(ClusterId.java:61)
+	at org.apache.hadoop.hbase.zookeeper.ClusterId.getId(ClusterId.java:50)
+	at org.apache.hadoop.hbase.zookeeper.ClusterId.hasId(ClusterId.java:44)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.ensureZookeeperTrackers(HConnectionManager.java:717)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.getMaster(HConnectionManager.java:786)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:127)
+	at org.apache.gora.hbase.store.HBaseStore.initialize(HBaseStore.java:115)
+	at org.apache.gora.store.DataStoreFactory.initializeDataStore(DataStoreFactory.java:104)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:163)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:137)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:78)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:218)
 	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
 	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
 	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
 	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
-
-2020-01-13 19:52:38,573 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-13 19:52:38
-2020-01-13 19:52:38,573 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
-2020-01-13 19:52:39,151 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
-2020-01-13 19:52:39,165 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2020-01-13 19:52:39,190 WARN  snappy.LoadSnappy - Snappy native library not loaded
-2020-01-13 19:52:39,400 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
-2020-01-13 19:52:39,401 WARN  mapred.LocalJobRunner - job_local377497998_0001
-java.lang.Exception: java.lang.NullPointerException
-	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
-Caused by: java.lang.NullPointerException
-	at java.io.Reader.<init>(Reader.java:78)
-	at java.io.BufferedReader.<init>(BufferedReader.java:101)
-	at java.io.BufferedReader.<init>(BufferedReader.java:116)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:202)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
-	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
-	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
-	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
-	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
-	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
-	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
-	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2020-01-13 19:52:40,275 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=inject urls, jobid=job_local377497998_0001
-	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:55)
-	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+2020-01-14 05:39:08,417 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/master
+2020-01-14 05:39:09,423 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:09,527 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:10,637 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:10,738 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/master
+2020-01-14 05:39:10,739 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:11,849 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:11,955 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:13,066 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:13,170 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:14,281 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:14,383 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:15,489 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:15,595 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/master
+2020-01-14 05:39:15,595 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:16,700 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:16,802 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:17,912 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:18,017 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:19,120 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:19,222 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:20,325 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:20,427 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:21,538 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:21,641 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:22,746 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:22,850 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:23,955 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:24,059 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/master
+2020-01-14 05:39:24,059 ERROR zookeeper.RecoverableZooKeeper - ZooKeeper exists failed after 3 retries
+2020-01-14 05:39:24,059 WARN  zookeeper.ZKUtil - hconnection Unable to set watcher on znode /hbase/master
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/master
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1041)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:172)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.watchAndCheckExists(ZKUtil.java:420)
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperNodeTracker.start(ZooKeeperNodeTracker.java:76)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.ensureZookeeperTrackers(HConnectionManager.java:723)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.getMaster(HConnectionManager.java:786)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:127)
+	at org.apache.gora.hbase.store.HBaseStore.initialize(HBaseStore.java:115)
+	at org.apache.gora.store.DataStoreFactory.initializeDataStore(DataStoreFactory.java:104)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:163)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:137)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:78)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:218)
 	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
 	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
 	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
 	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
-
-2020-01-13 19:54:51,616 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-13 19:54:51
-2020-01-13 19:54:51,616 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
-2020-01-13 19:54:52,374 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
-2020-01-13 19:54:52,391 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2020-01-13 19:54:52,416 WARN  snappy.LoadSnappy - Snappy native library not loaded
-2020-01-13 19:54:52,614 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
-2020-01-13 19:54:52,614 WARN  mapred.LocalJobRunner - job_local2051182489_0001
-java.lang.Exception: java.lang.NullPointerException
-	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
-Caused by: java.lang.NullPointerException
-	at java.io.Reader.<init>(Reader.java:78)
-	at java.io.BufferedReader.<init>(BufferedReader.java:101)
-	at java.io.BufferedReader.<init>(BufferedReader.java:116)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:202)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
-	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
-	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
-	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
-	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
-	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
-	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
-	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2020-01-13 19:54:53,507 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=inject urls, jobid=job_local2051182489_0001
-	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:55)
-	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+2020-01-14 05:39:24,060 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:24,060 ERROR zookeeper.ZooKeeperWatcher - hconnection Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/master
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1041)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:172)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.watchAndCheckExists(ZKUtil.java:420)
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperNodeTracker.start(ZooKeeperNodeTracker.java:76)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.ensureZookeeperTrackers(HConnectionManager.java:723)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.getMaster(HConnectionManager.java:786)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:127)
+	at org.apache.gora.hbase.store.HBaseStore.initialize(HBaseStore.java:115)
+	at org.apache.gora.store.DataStoreFactory.initializeDataStore(DataStoreFactory.java:104)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:163)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:137)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:78)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:218)
 	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
 	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
 	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
 	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
-
-2020-01-13 21:17:26,178 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-13 21:17:26
-2020-01-13 21:17:26,180 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
-2020-01-13 21:17:27,774 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
-2020-01-13 21:17:27,793 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2020-01-13 21:17:27,820 WARN  snappy.LoadSnappy - Snappy native library not loaded
-2020-01-13 21:17:28,000 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
-2020-01-13 21:17:28,000 WARN  mapred.LocalJobRunner - job_local692726293_0001
-java.lang.Exception: java.lang.NullPointerException
-	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
-Caused by: java.lang.NullPointerException
-	at java.io.Reader.<init>(Reader.java:78)
-	at java.io.BufferedReader.<init>(BufferedReader.java:101)
-	at java.io.BufferedReader.<init>(BufferedReader.java:116)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:202)
-	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
-	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
-	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
-	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
-	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
-	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
-	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
-	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-2020-01-13 21:17:28,902 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=inject urls, jobid=job_local692726293_0001
-	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:55)
-	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+2020-01-14 05:39:24,162 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/root-region-server
+2020-01-14 05:39:25,163 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:25,269 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:26,373 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:26,478 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/root-region-server
+2020-01-14 05:39:26,479 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:27,587 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:27,693 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:28,800 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:28,905 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:30,010 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:30,116 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:31,223 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:31,328 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/root-region-server
+2020-01-14 05:39:31,328 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:32,437 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:32,541 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:33,649 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:33,756 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:34,863 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:34,968 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:36,077 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:36,182 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:37,286 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:37,391 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:38,500 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:38,605 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:39,714 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:39,817 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/root-region-server
+2020-01-14 05:39:39,817 ERROR zookeeper.RecoverableZooKeeper - ZooKeeper exists failed after 3 retries
+2020-01-14 05:39:39,817 WARN  zookeeper.ZKUtil - hconnection Unable to set watcher on znode /hbase/root-region-server
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/root-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1041)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:172)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.watchAndCheckExists(ZKUtil.java:420)
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperNodeTracker.start(ZooKeeperNodeTracker.java:76)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.ensureZookeeperTrackers(HConnectionManager.java:727)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.getMaster(HConnectionManager.java:786)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:127)
+	at org.apache.gora.hbase.store.HBaseStore.initialize(HBaseStore.java:115)
+	at org.apache.gora.store.DataStoreFactory.initializeDataStore(DataStoreFactory.java:104)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:163)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:137)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:78)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:218)
 	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
 	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
 	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
 	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+2020-01-14 05:39:39,818 ERROR zookeeper.ZooKeeperWatcher - hconnection Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase/root-region-server
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1041)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:172)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.watchAndCheckExists(ZKUtil.java:420)
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperNodeTracker.start(ZooKeeperNodeTracker.java:76)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.ensureZookeeperTrackers(HConnectionManager.java:727)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.getMaster(HConnectionManager.java:786)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:127)
+	at org.apache.gora.hbase.store.HBaseStore.initialize(HBaseStore.java:115)
+	at org.apache.gora.store.DataStoreFactory.initializeDataStore(DataStoreFactory.java:104)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:163)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:137)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:78)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:218)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+2020-01-14 05:39:39,818 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:39,920 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+2020-01-14 05:39:40,925 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:41,027 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:42,135 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:42,236 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+2020-01-14 05:39:42,237 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:43,342 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:43,446 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:44,556 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:44,658 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:45,764 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:45,870 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:46,977 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:47,081 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+2020-01-14 05:39:47,081 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:48,187 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:48,289 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:49,398 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:49,504 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:50,612 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:50,716 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:51,822 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:51,929 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:53,034 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:53,136 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:54,246 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:54,348 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:55,454 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:55,558 WARN  zookeeper.RecoverableZooKeeper - Possibly transient ZooKeeper exception: org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+2020-01-14 05:39:55,558 ERROR zookeeper.RecoverableZooKeeper - ZooKeeper exists failed after 3 retries
+2020-01-14 05:39:55,558 WARN  zookeeper.ZKUtil - hconnection Unable to set watcher on znode (/hbase)
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1041)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:172)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:450)
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperNodeTracker.checkIfBaseNodeAvailable(ZooKeeperNodeTracker.java:208)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.checkIfBaseNodeAvailable(HConnectionManager.java:849)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.getMaster(HConnectionManager.java:787)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:127)
+	at org.apache.gora.hbase.store.HBaseStore.initialize(HBaseStore.java:115)
+	at org.apache.gora.store.DataStoreFactory.initializeDataStore(DataStoreFactory.java:104)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:163)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:137)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:78)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:218)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+2020-01-14 05:39:55,558 ERROR zookeeper.ZooKeeperWatcher - hconnection Received unexpected KeeperException, re-throwing exception
+org.apache.zookeeper.KeeperException$ConnectionLossException: KeeperErrorCode = ConnectionLoss for /hbase
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:99)
+	at org.apache.zookeeper.KeeperException.create(KeeperException.java:51)
+	at org.apache.zookeeper.ZooKeeper.exists(ZooKeeper.java:1041)
+	at org.apache.hadoop.hbase.zookeeper.RecoverableZooKeeper.exists(RecoverableZooKeeper.java:172)
+	at org.apache.hadoop.hbase.zookeeper.ZKUtil.checkExists(ZKUtil.java:450)
+	at org.apache.hadoop.hbase.zookeeper.ZooKeeperNodeTracker.checkIfBaseNodeAvailable(ZooKeeperNodeTracker.java:208)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.checkIfBaseNodeAvailable(HConnectionManager.java:849)
+	at org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation.getMaster(HConnectionManager.java:787)
+	at org.apache.hadoop.hbase.client.HBaseAdmin.<init>(HBaseAdmin.java:127)
+	at org.apache.gora.hbase.store.HBaseStore.initialize(HBaseStore.java:115)
+	at org.apache.gora.store.DataStoreFactory.initializeDataStore(DataStoreFactory.java:104)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:163)
+	at org.apache.gora.store.DataStoreFactory.createDataStore(DataStoreFactory.java:137)
+	at org.apache.nutch.storage.StorageUtils.createWebStore(StorageUtils.java:78)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:218)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+2020-01-14 05:39:55,558 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:56,669 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:56,773 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:57,881 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:57,987 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:59,095 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:39:59,201 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:40:00,307 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:40:00,409 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:40:01,515 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:40:01,619 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:40:02,727 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:40:02,832 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:40:03,941 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:40:04,043 WARN  zookeeper.ClientCnxn - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2020-01-14 05:40:58,621 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-14 05:40:58
+2020-01-14 05:40:58,621 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2020-01-14 05:41:42,135 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-14 05:41:42
+2020-01-14 05:41:42,135 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2020-01-14 05:53:17,637 INFO  crawl.InjectorJob - InjectorJob: starting at 2020-01-14 05:53:17
+2020-01-14 05:53:17,638 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: urls
+2020-01-14 05:53:19,815 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2020-01-14 05:53:19,842 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-14 05:53:19,871 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2020-01-14 05:53:20,096 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2020-01-14 05:53:20,142 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-14 05:53:20,974 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2020-01-14 05:53:20,975 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2020-01-14 05:53:20,976 INFO  crawl.InjectorJob - Injector: finished at 2020-01-14 05:53:20, elapsed: 00:00:03
+2020-01-14 05:53:31,319 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2020-01-14 05:53:31
+2020-01-14 05:53:31,320 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2020-01-14 05:53:31,320 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2020-01-14 05:53:31,320 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2020-01-14 05:53:31,320 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2020-01-14 05:53:31,320 INFO  crawl.GeneratorJob - GeneratorJob: topN: 10
+2020-01-14 05:53:31,410 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2020-01-14 05:53:31,410 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2020-01-14 05:53:31,410 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2020-01-14 05:53:31,937 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-14 05:53:32,240 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2020-01-14 05:53:32,240 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2020-01-14 05:53:32,240 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2020-01-14 05:53:32,263 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2020-01-14 05:53:32,331 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-14 05:53:33,076 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2020-01-14 05:53:33, time elapsed: 00:00:01
+2020-01-14 05:53:33,076 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1579006411-628388417 containing 1 URLs
+2020-01-14 05:53:41,815 INFO  fetcher.FetcherJob - FetcherJob: starting at 2020-01-14 05:53:41
+2020-01-14 05:53:41,816 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2020-01-14 05:53:41,816 INFO  fetcher.FetcherJob - FetcherJob: threads: 10
+2020-01-14 05:53:41,817 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2020-01-14 05:53:41,817 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2020-01-14 05:53:41,817 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2020-01-14 05:53:42,113 INFO  http.Http - http.proxy.host = null
+2020-01-14 05:53:42,114 INFO  http.Http - http.proxy.port = 8080
+2020-01-14 05:53:42,114 INFO  http.Http - http.timeout = 10000
+2020-01-14 05:53:42,114 INFO  http.Http - http.content.limit = 65536
+2020-01-14 05:53:42,114 INFO  http.Http - http.agent = ChimeraCrawler/Nutch-2.3
+2020-01-14 05:53:42,114 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2020-01-14 05:53:42,114 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2020-01-14 05:53:42,115 INFO  http.Http - http.proxy.host = null
+2020-01-14 05:53:42,115 INFO  http.Http - http.proxy.port = 8080
+2020-01-14 05:53:42,115 INFO  http.Http - http.timeout = 10000
+2020-01-14 05:53:42,115 INFO  http.Http - http.content.limit = 65536
+2020-01-14 05:53:42,115 INFO  http.Http - http.agent = ChimeraCrawler/Nutch-2.3
+2020-01-14 05:53:42,115 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2020-01-14 05:53:42,115 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2020-01-14 05:53:42,573 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-14 05:53:42,900 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2020-01-14 05:53:42,900 INFO  fetcher.FetcherJob - Fetcher: threads: 10
+2020-01-14 05:53:42,907 INFO  fetcher.FetcherJob - QueueFeeder finished: total 1 records. Hit by time limit :0
+2020-01-14 05:53:42,911 INFO  fetcher.FetcherJob - fetching https://web.archive.org/web/20191114173739/https:/www.us-cert.gov/ncas (queue crawl delay=5000ms)
+2020-01-14 05:53:42,911 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=1
+2020-01-14 05:53:42,911 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=1
+2020-01-14 05:53:42,911 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=1
+2020-01-14 05:53:42,911 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=1
+2020-01-14 05:53:42,911 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=1
+2020-01-14 05:53:42,911 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2020-01-14 05:53:42,912 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=1
+2020-01-14 05:53:42,912 INFO  fetcher.FetcherJob - -finishing thread FetcherThread8, activeThreads=1
+2020-01-14 05:53:42,912 INFO  fetcher.FetcherJob - -finishing thread FetcherThread9, activeThreads=1
+2020-01-14 05:53:42,912 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2020-01-14 05:53:42,912 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2020-01-14 05:53:42,912 INFO  http.Http - http.proxy.host = null
+2020-01-14 05:53:42,912 INFO  http.Http - http.proxy.port = 8080
+2020-01-14 05:53:42,912 INFO  http.Http - http.timeout = 10000
+2020-01-14 05:53:42,912 INFO  http.Http - http.content.limit = 65536
+2020-01-14 05:53:42,912 INFO  http.Http - http.agent = ChimeraCrawler/Nutch-2.3
+2020-01-14 05:53:42,912 INFO  http.Http - http.accept.language = en-us,en-gb,en;q=0.7,*;q=0.3
+2020-01-14 05:53:42,912 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2020-01-14 05:53:47,630 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2020-01-14 05:53:47,913 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 1 pages, 0 errors, 0.2 0 pages/s, 77 77 kb/s, 0 URLs in 0 queues
+2020-01-14 05:53:47,914 INFO  fetcher.FetcherJob - -activeThreads=0
+2020-01-14 05:53:47,922 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-14 05:53:48,737 INFO  fetcher.FetcherJob - FetcherJob: finished at 2020-01-14 05:53:48, time elapsed: 00:00:06
+2020-01-14 05:53:54,617 INFO  parse.ParserJob - ParserJob: starting at 2020-01-14 05:53:54
+2020-01-14 05:53:54,618 INFO  parse.ParserJob - ParserJob: resuming:	false
+2020-01-14 05:53:54,618 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2020-01-14 05:53:54,618 INFO  parse.ParserJob - ParserJob: parsing all
+2020-01-14 05:53:55,057 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2020-01-14 05:53:55,497 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-14 05:53:55,726 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2020-01-14 05:53:55,756 INFO  parse.ParserJob - Parsing https://web.archive.org/web/20191114173739/https:/www.us-cert.gov/ncas
+2020-01-14 05:53:55,932 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2020-01-14 05:53:55,985 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-14 05:53:56,631 INFO  parse.ParserJob - ParserJob: success
+2020-01-14 05:53:56,632 INFO  parse.ParserJob - ParserJob: finished at 2020-01-14 05:53:56, time elapsed: 00:00:02
+2020-01-14 05:54:03,057 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting at 2020-01-14 05:54:03
+2020-01-14 05:54:03,057 INFO  crawl.DbUpdaterJob - DbUpdaterJob: updatinging all
+2020-01-14 05:54:03,723 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-14 05:54:04,064 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2020-01-14 05:54:04,064 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2020-01-14 05:54:04,064 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2020-01-14 05:54:04,157 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-14 05:54:04,862 INFO  crawl.DbUpdaterJob - DbUpdaterJob: finished at 2020-01-14 05:54:04, time elapsed: 00:00:01
+2020-01-14 05:54:10,819 INFO  indexer.IndexingJob - IndexingJob: starting
+2020-01-14 05:54:10,959 INFO  basic.BasicIndexingFilter - Maximum title length for indexing set to: 100
+2020-01-14 05:54:10,959 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2020-01-14 05:54:10,960 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2020-01-14 05:54:10,960 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2020-01-14 05:54:11,452 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-01-14 05:54:11,669 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.elastic.ElasticIndexWriter
+2020-01-14 05:54:11,821 INFO  elasticsearch.plugins - [Unthinnk] loaded [], sites []
+2020-01-14 05:54:12,358 INFO  basic.BasicIndexingFilter - Maximum title length for indexing set to: 100
+2020-01-14 05:54:12,358 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.basic.BasicIndexingFilter
+2020-01-14 05:54:12,359 INFO  anchor.AnchorIndexingFilter - Anchor deduplication is: off
+2020-01-14 05:54:12,359 INFO  indexer.IndexingFilters - Adding org.apache.nutch.indexer.anchor.AnchorIndexingFilter
+2020-01-14 05:54:12,475 INFO  elastic.ElasticIndexWriter - Processing remaining requests [docs = 1, length = 4444, total docs = 1]
+2020-01-14 05:54:12,481 INFO  elastic.ElasticIndexWriter - Processing to finalize last execute
+2020-01-14 05:54:12,858 INFO  elastic.ElasticIndexWriter - Previous took in ms 372, including wait 377
+2020-01-14 05:54:12,878 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2020-01-14 05:54:13,588 INFO  indexer.IndexWriters - Adding org.apache.nutch.indexwriter.elastic.ElasticIndexWriter
+2020-01-14 05:54:13,588 INFO  indexer.IndexingJob - Active IndexWriters :
+ElasticIndexWriter
+	elastic.cluster : elastic prefix cluster
+	elastic.host : hostname
+	elastic.port : port  (default 9300)
+	elastic.index : elastic index command 
+	elastic.max.bulk.docs : elastic bulk index doc counts. (default 250) 
+	elastic.max.bulk.size : elastic bulk index length. (default 2500500 ~2.5MB)
 
+
+2020-01-14 05:54:13,614 INFO  elasticsearch.plugins - [Melter] loaded [], sites []
+2020-01-14 05:54:13,635 INFO  indexer.IndexingJob - IndexingJob: done.
