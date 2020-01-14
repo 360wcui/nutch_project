@@ -1,0 +1,1839 @@
+[2019-11-22 03:05:19,329][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 04:20:30,655][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 04:24:31,251][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 04:31:49,308][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 04:35:49,912][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 04:39:50,510][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 04:48:15,965][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 04:52:16,561][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 04:56:17,153][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:00:17,755][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:04:18,353][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:08:18,952][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:12:19,549][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:16:20,146][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:20:20,749][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:24:21,410][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:28:22,010][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:32:22,609][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:36:23,199][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:40:23,796][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:44:24,395][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:54:19,740][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 05:58:20,343][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 06:02:20,944][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 06:06:21,539][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 06:10:22,133][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 06:14:22,735][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 06:18:23,342][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 06:22:23,940][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 07:26:59,834][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 07:31:00,421][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 07:35:01,025][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 07:39:01,612][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 07:43:02,214][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 07:47:02,808][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 07:51:03,408][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 07:55:04,001][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 07:59:04,602][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:03:05,194][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:07:05,867][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:11:06,459][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:15:07,057][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:19:07,658][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:23:08,250][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:27:08,855][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:31:09,458][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:35:10,048][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:39:10,653][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:43:11,303][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:47:11,910][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:51:12,508][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:55:13,111][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 08:59:13,704][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 09:03:14,312][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 09:07:14,916][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 09:11:15,517][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 09:15:16,112][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 09:19:16,750][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 09:23:17,342][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 09:27:17,950][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 10:03:37,319][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 11:35:22,196][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 13:46:05,078][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 13:50:38,817][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 13:54:39,419][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 13:58:40,011][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:02:40,601][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:06:41,203][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:10:41,806][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:14:42,398][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:18:42,999][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:22:43,589][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:26:44,261][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:30:44,861][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:34:45,452][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:38:46,052][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:42:46,656][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:46:47,254][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:50:47,847][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:54:48,450][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 14:58:49,047][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:02:49,695][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:06:50,297][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:10:50,896][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:14:51,494][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:18:52,091][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:22:52,691][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:26:53,291][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:30:53,885][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:34:54,487][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:38:55,095][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:42:55,736][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:46:56,333][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:50:56,930][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:54:57,532][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 15:58:58,131][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 16:02:58,738][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 16:06:59,332][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 16:10:59,937][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 16:15:00,533][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 16:19:01,173][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.19.1.49:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2019-11-22 19:25:17,705][WARN ][cluster.service          ] [Aleksander Lukin] failed to reconnect to node [Aleksander Lukin][HVqEgYb1SlmXu8yaUuAIQg][Weis-MacBook-Pro.local][inet[/172.19.1.49:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Aleksander Lukin][inet[/172.19.1.49:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Operation timed out: /172.19.1.49:9300
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.connect(NioClientBoss.java:152)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processSelectedKeys(NioClientBoss.java:105)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:79)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more

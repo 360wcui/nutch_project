@@ -1,0 +1,17 @@
+[2019-11-18 10:16:13,141][INFO ][node                     ] [Ultimo] version[1.4.1], pid[93067], build[89d3241/2014-11-26T15:49:29Z]
+[2019-11-18 10:16:13,142][INFO ][node                     ] [Ultimo] initializing ...
+[2019-11-18 10:16:13,146][INFO ][plugins                  ] [Ultimo] loaded [], sites []
+[2019-11-18 10:16:16,668][INFO ][node                     ] [Ultimo] initialized
+[2019-11-18 10:16:16,669][INFO ][node                     ] [Ultimo] starting ...
+[2019-11-18 10:16:16,955][INFO ][transport                ] [Ultimo] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/10.71.6.175:9300]}
+[2019-11-18 10:16:17,056][INFO ][discovery                ] [Ultimo] elasticsearch/4W_kEB2oTOme7mzIYzcBCA
+[2019-11-18 10:16:20,851][INFO ][cluster.service          ] [Ultimo] new_master [Ultimo][4W_kEB2oTOme7mzIYzcBCA][Weis-MacBook-Pro.local][inet[/10.71.6.175:9300]], reason: zen-disco-join (elected_as_master)
+[2019-11-18 10:16:20,873][INFO ][http                     ] [Ultimo] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/10.71.6.175:9200]}
+[2019-11-18 10:16:20,874][INFO ][node                     ] [Ultimo] started
+[2019-11-18 10:16:21,597][INFO ][gateway                  ] [Ultimo] recovered [2] indices into cluster_state
+[2019-11-18 10:25:49,481][INFO ][cluster.metadata         ] [Ultimo] [nutch1118] creating index, cause [auto(bulk api)], shards [5]/[1], mappings []
+[2019-11-18 10:25:49,589][INFO ][cluster.metadata         ] [Ultimo] [nutch1118] update_mapping [doc] (dynamic)
+[2019-11-18 10:38:47,282][INFO ][node                     ] [Ultimo] stopping ...
+[2019-11-18 10:38:47,342][INFO ][node                     ] [Ultimo] stopped
+[2019-11-18 10:38:47,342][INFO ][node                     ] [Ultimo] closing ...
+[2019-11-18 10:38:47,347][INFO ][node                     ] [Ultimo] closed
