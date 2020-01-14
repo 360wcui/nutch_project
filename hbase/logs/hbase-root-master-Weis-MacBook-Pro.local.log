@@ -780,3 +780,6 @@ EndOfStreamException: Unable to read additional data from client sessionid 0x16f
 2020-01-13 21:40:12,472 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@7bc4eb2f
 2020-01-13 21:40:12,478 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
 2020-01-13 21:42:05,703 DEBUG org.apache.hadoop.hbase.io.hfile.LruBlockCache: Stats: total=1.99 MB, free=239.69 MB, max=241.67 MB, blocks=3, accesses=61, hits=58, hitRatio=95.08%, , cachingAccesses=61, cachingHits=58, cachingHitsRatio=95.08%, , evictions=0, evicted=0, evictedPerRun=NaN
+2020-01-13 21:45:12,475 DEBUG org.apache.hadoop.hbase.client.MetaScanner: Scanning .META. starting at row= for max=2147483647 rows using org.apache.hadoop.hbase.client.HConnectionManager$HConnectionImplementation@7bc4eb2f
+2020-01-13 21:45:12,479 INFO org.apache.hadoop.hbase.master.LoadBalancer: Skipping load balancing because balanced cluster; servers=1 regions=1 average=1.0 mostloaded=1 leastloaded=1
+2020-01-13 21:45:12,481 DEBUG org.apache.hadoop.hbase.master.CatalogJanitor: Scanned 1 catalog row(s) and gc'd 0 unreferenced parent region(s)
