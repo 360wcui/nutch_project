@@ -5,3 +5,5 @@ elasticsearch-1.4.1/data/**
 .idea
 nutch/build/*.job
 elasticsearch-1.4.1/logs/*
+elasticsearch-1.4.1/logs/*.log
+hbase/logs/*.log
